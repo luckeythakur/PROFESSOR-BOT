@@ -18,9 +18,9 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             name="Professor-Bot",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            bot_token=BOT_TOKEN,
+            api_id=API_ID,36123797
+            api_hash=API_HASH,25c2bbc7b080223a7ef8c877ac77a562
+            bot_token=BOT_TOKEN,8205666666:AAEtVyqoECXQV3ZJix1JW1odg6Q6QG_3UhY
             plugins=dict(root="plugins")
         )
 
@@ -34,11 +34,11 @@ class Bot(Client):
         me = await self.get_me()
         temp.U_NAME = me.username
         temp.B_NAME = me.first_name
-        self.id = me.id
+        self.id = me.id 
         self.name = me.first_name
         self.mention = me.mention
         self.username = me.username
-        self.log_channel = LOG_CHANNEL
+        self.log_channel = LOG_CHANNEL '1003693994241'
         self.uptime = UPTIME
         curr = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
         date = curr.strftime('%d %B, %Y')
